@@ -15,6 +15,7 @@
         "guzzlehttp/guzzle": "^6.3.1|^7.0.1",
         "laravel/framework": "^7.29",
         "laravel/tinker": "^2.5",
+        "phpclassic/php-shopify": "^1.1",
         "predis/predis": "^1.1",
         "woocommerce/woocommerce": "^5.0"
     },

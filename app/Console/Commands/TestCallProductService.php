@@ -32,7 +32,7 @@ class TestCallProductService extends Command
     public function __construct(GetProductInterface $getProduct)
     {
         parent::__construct();
-        app()->bind(GetProductInterface::class, GetWoocommerceProduct::class);
+        app()->bind(GetProductInterface::class, GetShopifyProduct::class);
         $this->_getProduct = app()->make(GetProductInterface::class);
     }
 
